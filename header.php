@@ -7,31 +7,19 @@
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen,projection" />
 <?php wp_head(); ?>
+<link rel='stylesheet' id='gf-test-css'  href='http://musclemetrics.zone/wp-content/themes/mu/tt-lib/css/gf-formsmain-test.css?ver=1.0' type='text/css' media='all' />    
 </head>
 <body>
-<div class="container-fluid maxpg">
+<div class="container-fluid">
 
 <div class="row">
-    <div id="top" class="col-xs-12 col-sm-10 col-sm-offset-1">
-        <div class="logo col-xs-12 col-sm-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img-fpo.png" class="" width="100%">
-            <a href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>"></a>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-            <div id="social" class="col-xs-12 col-sm-12 hidden-xs">
-                <div class="google pull-right"><a href="#" title="google +" target="_blank"></a></div>
-                <div class="facebook pull-right"><a href="#" title="Facebook" target="_blank"></a></div>
-                <div class="in pull-right"><a href="#" title="Linked In" target="_blank"></a></div>
-                <div class="twitter pull-right"><a href="#" title="Twitter" target="_blank"></a></div>
-            </div>
-            <div class="phone col-xs-12 hidden-xs"><i class="fa fa-phone"></i> 123-456-7890</div>
-            <h2 class="phone-m col-xs-12 visible-xs-block text-center"><i class="fa fa-phone"></i> 123-456-7890</h2>
-        </div>
-    </div>
+    <div class="logo col-sm-6 col-sm-offset-3">
+        <a href="/"><img class="" src="/wp-content/uploads/2015/02/MM-logo-c.png" width="100%"/></a>
+    </p>
 </div>         
     
 <div class="row">
-    <div id="navbar" class="col-sm-10 col-sm-offset-1">
+    <div id="navbar" class="col-sm-12">
         
                         
                        
@@ -53,11 +41,5 @@
     
 <!--    nav-->
 
-<div class="row">
-					
-					</div>
-    
-    
-    
     
 <!--header-->
